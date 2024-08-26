@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #EBE9E9;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 1000; /* Mais grosso */
+  color: #160403;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra no título */
+  margin-bottom: 20px;
+}
+
+p, h2 {
+  font-weight: 550; /* Texto mais grosso */
+}
+
